@@ -12,10 +12,9 @@
 
 	<body style='margin : 0px; overflow: hidden;'>
 		
-		<audio autoplay>
-			<source src="canzone.mp3" type="audio/mp3">
-		</audio>
-  
+		<iframe src="canzone.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+		</iframe>
+		
 		<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;' vr-mode-ui="enabled: false">
  
     			<a-marker preset='hiro'>
